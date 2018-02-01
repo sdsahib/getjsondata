@@ -1,0 +1,21 @@
+{
+    
+    "parent" : [
+                {
+                    "parentid":1,
+                    "name":"Programming",
+                    "childskill":  {  "id":2,
+                                    "name":"Java",
+                                    "Rating":4
+                                    }
+                },
+                {
+                    "parentid":2,
+                    "name":"AWS"
+                    "childskill":  {    "id":1,
+                                    "name":"Amazon API Gateway",
+                                    "Rating":3
+                                    }   
+                 }
+            ]             
+}
