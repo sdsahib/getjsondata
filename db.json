@@ -91,7 +91,7 @@
                 },
                 {
                     "parentid":2,
-                    "name":"AWS"
+                    "name":"AWS",
                     "childskill":  {    "id":1,
                                     "name":"Amazon API Gateway",
                                     "Rating":3
