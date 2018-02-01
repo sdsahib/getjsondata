@@ -1,0 +1,102 @@
+{
+    "Parent":[
+            {
+                "id":1,
+                "name": "Programming",
+                "child":[
+                            {
+                                "id":1,
+                                "name":"C++",
+                                "No_of_rated_users":25
+                            },
+                            {
+                                "id":2,
+                                "name":"Java",
+                                "No_of_rated_users":20  
+                            },
+                            {
+                                "id":3,
+                                "name":"Python",
+                                "No_of_rated_users":15
+                            },
+                            {
+                                "id":4, 
+                                "name":"C#",
+                                "No_of_rated_users":10  
+                            }
+                        ]
+            },
+                {
+                "id":2,
+                "name": "AWS",
+                "child":[
+                            {
+                                "id":1,
+                                "name":"Amazon API Gateway",
+                                "No_of_rated_users":100
+                            },
+                            {
+                                "id":2,
+                                "name":"AWS Device Farm",
+                                "No_of_rated_users":95
+                            },
+                            {
+                                "id":3,
+                                "name":"Elastic Beanstalk",
+                                "No_of_rated_users":90
+                            },
+                            {
+                                "id":4,
+                                "name":"Auto scaling",
+                                "No_of_rated_users":10  
+                            }
+                        ]
+                },
+                {
+                "id":3,
+                "name": "Front end",
+                "child":[
+                            {
+                                "id":1,
+                                "name":"Angular",
+                                "No_of_rated_users":100
+                            },
+                            {
+                                "id":2,
+                                "name":"HTML",
+                                "No_of_rated_users":95
+                            },
+                            {
+                                "id":3,
+                                "name":"CSS",
+                                "No_of_rated_users":90
+                            },
+                            {
+                                "id":4,
+                                "name":"Bootstrap",
+                                "No_of_rated_users":10  
+                            }
+                        ]
+                }
+            ],
+        
+     "user" : [
+                {
+                    "parentid":1,
+                    "name":"Programming",
+                    "childskill":  {  "id":2,
+                                    "name":"Java",
+                                    "Rating":4
+                                    }
+                },
+                {
+                    "parentid":2,
+                    "name":"AWS"
+                    "childskill":  {    "id":1,
+                                    "name":"Amazon API Gateway",
+                                    "Rating":3
+                                    }   
+                 }
+            ]  
+        
+}
